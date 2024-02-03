@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
-    
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
 
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
+
+    <div id="container">
+
+        <div id="input">
+            <h2>Entrada</h2>
+            <textarea id="inputText" placeholder="Ingresa tu texto aquí"></textarea>
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="">Desencriptar</button>
+        </div>
+
+        <div id="output" >
+            <h2>Salida</h2>
+            <div id="outputText">
+                <button class= "boton_salida" onclick=""> Copiar</button>
+            </div>
+        </div>
+
+    </div>
+
 </body>
 
 </html>
